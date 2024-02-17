@@ -2,7 +2,7 @@
 
 # neta-net
 
-nota-netを実装するリポジトリ
+nota-net を実装するリポジトリ
 
 ## Getting Started
 
@@ -34,7 +34,7 @@ This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-opti
 
 ## Deploy Sub Domain
 
-|サブドメイン|アクセスURL|使途|
-|:--|:--|:--|
-| - | [neta-net.com](https://neta-net.com) | 本番ブランチ、一般公開してる |
-| staging | []() | 本番環境にデプロイする前の最終確認 |
+| サブドメイン | アクセス URL                         | 使途                               |
+| :----------- | :----------------------------------- | :--------------------------------- |
+| -            | [neta-net.com](https://neta-net.com) | 本番ブランチ、一般公開してる       |
+| staging      | []()                                 | 本番環境にデプロイする前の最終確認 |
