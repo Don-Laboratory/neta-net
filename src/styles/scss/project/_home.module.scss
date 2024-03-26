@@ -1,13 +1,18 @@
 @import '../global/mixins';
 
-$color-primery: blue;
+$color-primery: #0000ff;
 
 .title {
     color: $color-primery;
 }
 
+.mv {
+    width: 100%;
+    height: auto;
+}
+
 @include mobile() {
     .title {
-        background-color: gray;
+        background-color: #fff;
     }
 }
