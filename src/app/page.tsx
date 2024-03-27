@@ -1,5 +1,6 @@
 import Image from "next/image";
 import allScss from '@/styles/scss/project/_home.module.scss'
+import partsScss from '@/styles/scss/component/_parts.module.scss'
 import { Button } from 'react-bootstrap';
 
 export default function Home() {
@@ -54,7 +55,7 @@ export default function Home() {
             </button>
           </li>
           <li className="mb-1">
-            <button className={`${allScss.netaPost} ${"btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed test"}`} data-bs-toggle="collapse" data-bs-target="#account-collapse" aria-expanded="false">
+            <button className={`${partsScss.netaPostButton} ${"btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed test"}`} data-bs-toggle="collapse" data-bs-target="#account-collapse" aria-expanded="false">
               ネタ投稿する
             </button>
           </li>
