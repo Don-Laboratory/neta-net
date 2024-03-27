@@ -1,14 +1,7 @@
 @import '../global/mixins';
 
-$color-primery: #0000ff;
-
-.title {
-    color: $color-primery;
-}
-
-.mv {
-    width: 100%;
-    height: auto;
+.sidebar {
+    width: 280px;
 }
 
 @include mobile() {
