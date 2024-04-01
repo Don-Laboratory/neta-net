@@ -1,15 +1,18 @@
 @import '../global/mixins';
 
-$color-primery: #0000ff;
-
-.title {
-    color: $color-primery;
+.sidebar {
+    width: 280px;
 }
 
-.mv {
-    width: 100%;
-    height: auto;
-}
+// .netaPost {
+//     background-color: #F8A061;
+//     color: #fff;
+//     width: 200px;
+//     height: 54px;
+//     display: flex;
+//     justify-content: center;
+//     border-radius: 30px !important;
+// }
 
 @include mobile() {
     .title {
