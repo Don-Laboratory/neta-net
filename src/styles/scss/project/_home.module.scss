@@ -1,18 +1,8 @@
 @import '../global/mixins';
 
-.sidebar {
-    width: 280px;
+.threeCol {
+    display: flex;
 }
-
-// .netaPost {
-//     background-color: #F8A061;
-//     color: #fff;
-//     width: 200px;
-//     height: 54px;
-//     display: flex;
-//     justify-content: center;
-//     border-radius: 30px !important;
-// }
 
 @include mobile() {
     .title {
