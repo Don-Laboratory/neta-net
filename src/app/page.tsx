@@ -6,7 +6,6 @@ import Container from 'react-bootstrap/container';
 import NavBar from '@/components/layouts/tabs.tsx';
 import Sidebar from '@/components/layouts/sidebar.tsx';
 import HeaderHome from '@/components/layouts/headerHome.tsx';
-import Neta_Footer from '../components/layouts/Neta_Footer';
 
 export default function Home() {
   return (
@@ -27,7 +26,7 @@ export default function Home() {
         </div>
       </Container>
 
-      <Neta_Footer></Neta_Footer>
     </main >
+
   )
 }
