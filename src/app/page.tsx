@@ -2,9 +2,9 @@
 import Image from "next/image";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Container from 'react-bootstrap/container';
-import NavBar from '@/components/layouts/tabs.tsx';
-import Sidebar from '@/components/layouts/sidebar.tsx';
-import HeaderHome from '@/components/layouts/headerHome.tsx';
+import NavBar from '@/components/layouts/tabs';
+import Sidebar from '@/components/layouts/sidebar';
+import HeaderHome from '@/components/layouts/headerHome';
 import Neta_Footer from '../components/layouts/Neta_Footer';
 import homeScss from '@/styles/scss/project/_home.module.scss';
 
