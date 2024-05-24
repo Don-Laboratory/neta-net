@@ -1,7 +1,7 @@
 'use client'
 import Image from "next/image";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Container from 'react-bootstrap/container';
+import Container from 'react-bootstrap/Container';
 import NavBar from '@/components/layouts/tabs';
 import Sidebar from '@/components/layouts/sidebar';
 import HeaderHome from '@/components/layouts/headerHome';
