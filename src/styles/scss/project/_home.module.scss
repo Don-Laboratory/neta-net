@@ -1,7 +1,7 @@
 @import '../global/mixins';
 
 .threeCol {
-    display: flex;
+    display: flex !important;
 }
 
 @include mobile() {
